@@ -1,0 +1,85 @@
+/* create orphanage */
+
+.input-block.add-image button {
+    width: 100%;
+    height: 6.4rem;
+    border-radius: 2rem;
+    border: 1px dashed #96d2f0;
+    background: #f5f8fa;
+    padding: 0 1.6rem;
+    cursor: pointer;
+    margin-top: 1.8rem;
+}
+
+.button-select {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.button-select button {
+    height: 6.4rem;
+    background: #f5f8fa;
+    border: 1px solid #d3e2e5;
+    color: #5c8599;
+    cursor: pointer;
+}
+
+.button-select button:first-child {
+    border-radius: 2rem 0 0 2rem;
+}
+
+.button-select button:last-child {
+    border-radius: 0 2rem 2rem 0;
+}
+
+.button-select .active {
+    background: #EDFFF6;
+    border: 1px solid #a1e9c5;
+    color: #37C77F;
+}
+
+/* page-orphanage */
+
+.images button {
+    border: 0;
+    background: none;
+    height: 8.8rem;
+    cursor: progress;
+    border-radius: 2rem;
+    overflow: hidden;
+    opacity: 0.6;
+}
+
+.images button:hover, .images button.active {
+    opacity: 1;
+}
+
+.images button img {
+    width: 100%;
+    height: 8.8rem;
+    object-fit: cover;
+}
+
+.primary-button {
+    margin-top: 6.4rem;
+    width: 100%;
+    height: 6.4rem;
+    border: 0;
+    display: flex;
+    background: #37C77F;
+    color: white;
+    border-radius: 2rem;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 200ms;
+}
+
+.primary-button:hover {
+    background: #36cf82;
+}
+
+.primary-button img {
+    margin-right: 1.6rem;
+}
+
